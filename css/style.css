@@ -513,7 +513,7 @@ custom styles adapted from Twenty by HTML5 Up
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
 	#header {
-		background: white;
+		background: #F1EDF4;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
@@ -613,7 +613,7 @@ custom styles adapted from Twenty by HTML5 Up
 			animation: none;
             background: transparent;
             box-shadow: none;
-			color: white;
+			color: #F1EDF4;
 			padding: 2em 2.5em;
 			position: absolute;
 		}
@@ -673,7 +673,7 @@ custom styles adapted from Twenty by HTML5 Up
 
 			.dropotron > li:hover > a {
 				background: rgb(79, 166, 209);
-				color: white;
+				color: #F1EDF4;
 			}
 
 			.dropotron > li:first-child {
