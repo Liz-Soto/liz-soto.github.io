@@ -157,17 +157,15 @@
             <h2>{{ page.cta }}</h2>
           </header>
           {% if page.cta %}
-          <div class="inner">
-            <p style="padding: 0em 1em; text-align: center">{{ page.cta_description }}</p>
-            {% endif %}
-            <footer style="margin-bottom:8em">
-                {% if page.cta_button %}
-              <ul class="buttons">
-                <li><a href="{{ page.cta_button }}" class="button">{{ page.cta_button_label }}</a></li>
-              </ul>
-                {% endif %}
-            </footer>
-          </div>
+          <p style="padding: 0em 1em; text-align: center">{{ page.cta_description }}</p>
+          {% endif %}
+          <footer style="margin-bottom:8em">
+              {% if page.cta_button %}
+            <ul class="buttons">
+              <li><a href="{{ page.cta_button }}" class="button">{{ page.cta_button_label }}</a></li>
+            </ul>
+              {% endif %}
+          </footer>
         </section>
         {% endif %}
     </div>
