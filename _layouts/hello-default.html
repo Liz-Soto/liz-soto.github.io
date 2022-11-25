@@ -54,13 +54,13 @@
 
   <body class="index">
 
-    <!-- HEADER -->		
+    <!-- HEADER -->
     <header id="header">
       <h1 id="logo" style="text-transform:lowercase">
         <a href="/">hello</a></h1>
       <nav id="nav">
         <ul>
-          <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#about">about</a></li>
+          <a href="{{ page.page_url }}/#about">about</a>
           {% if page.portfolio %}
           <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#{{ page.portfolio }}">{{ page.portfolio }}</a></li>
           {% endif %}
@@ -71,8 +71,8 @@
       </nav>
     </header>
 
-    <!-- BANNER -->		
-    <section id="banner" 
+    <!-- BANNER -->
+    <section id="banner"
     {% if page.background_image %}
     style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover;"
         {% endif %}>
@@ -81,7 +81,7 @@
 
             <h2 style="font-size:3em; text-transform:none">{{ page.banner_title }}</h2>
             <p style="text-transform:none;">{{ page.banner_subtitle }}</p>
-      
+
         </div>
 
     </section>
@@ -98,9 +98,9 @@
 
               <section class="special container" style="margin-bottom:10em">
 
-                  <div style="padding: 0 1em; text-align:center"> 
+                  <div style="padding: 0 1em; text-align:center">
                     {{ content }}</div>
-      
+
                   <!-- button -->
                   {% if page.about_button %}
                   <section class="wrapper style1 container special">
@@ -110,8 +110,8 @@
                             </ul>
                         </footer>
                   </section>
-                {% endif %}      
-              </section>    
+                {% endif %}
+              </section>
 
             <!-- section: work-->
             {% if page.portfolio %}
@@ -148,11 +148,11 @@
 
         <!-- section: cta -->
         {% if page.cta %}
-      <section class="cta" id="{{ page.cta }}" 
+      <section class="cta" id="{{ page.cta }}"
       {% if page.background_image %}
       style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover;"
       {% endif %}>
-			
+
           <header class="major">
             <h2>{{ page.cta }}</h2>
           </header>
@@ -166,7 +166,7 @@
             </ul>
               {% endif %}
           </footer>
-        
+
         </section>
         {% endif %}
     </div>
