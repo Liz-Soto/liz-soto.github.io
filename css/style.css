@@ -9,7 +9,7 @@ custom styles adapted from Twenty by HTML5 Up
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		background: #f3f6fa;
+		background: #e7deed;
 	}
 
 	body.is-loading * {
@@ -47,7 +47,7 @@ custom styles adapted from Twenty by HTML5 Up
 
 		a:hover {
 			border-bottom-color: transparent;
-			color:rgb(79, 166, 209);
+			color:rgb(161, 79, 209);
 		}
 
 	strong, b {
@@ -69,7 +69,7 @@ custom styles adapted from Twenty by HTML5 Up
 			color: inherit;
 			text-decoration: none;
 			border: 0;
-			
+
 		}
 
 	h2 {
@@ -184,7 +184,7 @@ custom styles adapted from Twenty by HTML5 Up
 .item h1 {
 	font-size: 1.15em;
 	letter-spacing: 0.025em;
-	margin-bottom:0em; 
+	margin-bottom:0em;
 	font-weight:bold;
 }
 
@@ -281,7 +281,7 @@ custom styles adapted from Twenty by HTML5 Up
 				.icon.circle.fa-twitter:hover {
 					background: #7fb7d2;
 				}
-			
+
 			.icon.circle.fa-linkedin-square {
 				background: #0077B5;
 				color: white;
