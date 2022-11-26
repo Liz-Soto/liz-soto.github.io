@@ -820,6 +820,7 @@ custom styles adapted from Twenty by HTML5 Up
 	 	 background: rgba(52, 27, 43, 0.5);
 	 	 color: white;
 	 	 display: inline-block;
+		 vertical-align: top
 	 	 opacity: 0;
 	 	 padding: 2em;
 	 	 text-align: center;
