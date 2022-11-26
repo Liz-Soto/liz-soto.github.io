@@ -842,13 +842,13 @@ custom styles adapted from Twenty by HTML5 Up
 	 			 margin: 0;
 	 			 padding-left: 0.05em;
 	 			 position: relative;
-	 			 /*text-transform: capitalize;*/w
+	 			 text-transform: none;
 	 		 }
 
 	 	 .cta .inn p {
 	 		 letter-spacing: 0.1em;
 	 		 margin: 0;
-	 		 /*text-transform: uppercase;*/
+	 		 text-transform: none;
 	 	 }
 
 	 		 .cta .inn p a {
