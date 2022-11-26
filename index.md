@@ -23,7 +23,7 @@ linkedin:  lizeth-soto-félix-1a146815a # the part after ("https://www.linkedin.
 
 # By declaring these variables, you can include a button that links to an external website or to media.
 about_button: #https://github.com/saragong/hello # the link
-about_button_label: #get hello # the label on the button
+about_button_label: Download CV # the label on the button
 
 # optional portfolio section ------------------------------------------
 
