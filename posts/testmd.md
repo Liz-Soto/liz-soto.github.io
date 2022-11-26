@@ -9,6 +9,7 @@ banner_subtitle: Computer Scientist
 background_image: /images/background1.jpg
 blog_title: First blog post
 blog_date: 01-01-2022
+blog_autor: Liz Soto
 
 
 # all of the following variables are optional -----------------
