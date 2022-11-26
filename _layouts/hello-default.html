@@ -148,7 +148,7 @@
 
         <!-- section: cta -->
         {% if page.cta %}
-      <section class="cta" id="{{ page.cta }}"
+      <section class="cta main" id="{{ page.cta }}"
       {% if page.background_image %}
       style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover;"
       {% endif %}>
@@ -156,16 +156,19 @@
           <header class="major">
             <h2>{{ page.cta }}</h2>
           </header>
-          {% if page.cta %}
-          <p style="padding: 0em 1em; text-align: center">{{ page.cta_description }}</p>
-          {% endif %}
-          <footer style="margin-bottom:8em">
-              {% if page.cta_button %}
-            <ul class="buttons">
-              <li><a href="{{ page.cta_button }}" class="button">{{ page.cta_button_label }}</a></li>
-            </ul>
-              {% endif %}
-          </footer>
+          <div class="inner">
+
+            {% if page.cta %}
+            <p style="padding: 0em 1em; text-align: center">{{ page.cta_description }}</p>
+            {% endif %}
+            <footer style="margin-bottom:8em">
+                {% if page.cta_button %}
+              <ul class="buttons">
+                <li><a href="{{ page.cta_button }}" class="button">{{ page.cta_button_label }}</a></li>
+              </ul>
+                {% endif %}
+            </footer>
+          </div>
         </section>
         {% endif %}
     </div>
