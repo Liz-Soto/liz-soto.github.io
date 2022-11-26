@@ -12,13 +12,13 @@ Blog:
         image: /images/NYC3.jpg
       - item: example3.html
         image: /images/NYC4.jpg
-  - category: Los Angeles
-    items:
-      - item: example.html
-        image: /images/LA1.jpg
-      - item: example.html
-        image: /images/LA2.jpg
-      - item: example2.html
-        image: /images/LA3.jpg
-      - item: example3.html
-        image: /images/LA4.jpg
+  #- category: Los Angeles
+  #  items:
+  #    - item: example.html
+  #      image: /images/LA1.jpg
+  #    - item: example.html
+  #      image: /images/LA2.jpg
+  #    - item: example2.html
+  #      image: /images/LA3.jpg
+  #    - item: example3.html
+  #      image: /images/LA4.jpg
