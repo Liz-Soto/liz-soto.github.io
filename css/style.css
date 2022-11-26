@@ -783,60 +783,7 @@ custom styles adapted from Twenty by HTML5 Up
 				padding-top: 0;
 				margin-top: 0;
 			}
-			#main .inner {
-				-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-				-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-				-o-animation: reveal-banner 1s 0.25s ease-in-out;
-				-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-				animation: reveal-banner 1s 0.25s ease-in-out;
-				-moz-animation-fill-mode: forwards;
-				-webkit-animation-fill-mode: forwards;
-				-o-animation-fill-mode: forwards;
-				-ms-animation-fill-mode: forwards;
-				animation-fill-mode: forwards;
-				background: rgba(52, 27, 43, 0.5);
-				color: white;
-				display: inline-block;
-				opacity: 0;
-				padding: 3em;
-				text-align: center;
-			}
 
-				#main .inner header {
-					display: inline-block;
-					border-bottom: solid 2px;
-					border-top: solid 2px;
-					margin: 0 0 2em 0;
-					padding: 3px 0 3px 0;
-				}
-
-					#main .inner header h2 {
-						border-bottom: solid 2px;
-						border-top: solid 2px;
-						font-size: 2.5em;
-						font-weight: 900;
-						letter-spacing: 0.2em;
-						margin: 0;
-						padding-left: 0.05em;
-						position: relative;
-						text-transform: uppercase;
-					}
-
-				#main .inner p {
-					letter-spacing: 0.1em;
-					margin: 0;
-					text-transform: uppercase;
-				}
-
-					#main .inner p a {
-						color: inherit;
-						font-weight: 400;
-						text-decoration: none;
-					}
-
-				#main .inner footer {
-					margin: 2em 0 0 0;
-				}
 
 	body.index #main {
 		padding-top: 5em;
@@ -859,7 +806,60 @@ custom styles adapted from Twenty by HTML5 Up
 		.cta header {
 			margin-bottom: 2em;
 		}
+		.cta .inn {
+	 	 -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+	 	 -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+	 	 -o-animation: reveal-banner 1s 0.25s ease-in-out;
+	 	 -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+	 	 animation: reveal-banner 1s 0.25s ease-in-out;
+	 	 -moz-animation-fill-mode: forwards;
+	 	 -webkit-animation-fill-mode: forwards;
+	 	 -o-animation-fill-mode: forwards;
+	 	 -ms-animation-fill-mode: forwards;
+	 	 animation-fill-mode: forwards;
+	 	 background: rgba(52, 27, 43, 0.5);
+	 	 color: white;
+	 	 display: inline-block;
+	 	 opacity: 0;
+	 	 padding: 3em;
+	 	 text-align: center;
+	  }
 
+	 	 .cta .inn header {
+	 		 display: inline-block;
+	 		 border-bottom: solid 2px;
+	 		 border-top: solid 2px;
+	 		 margin: 0 0 2em 0;
+	 		 padding: 3px 0 3px 0;
+	 	 }
+
+	 		 .cta .inn header h2 {
+	 			 border-bottom: solid 2px;
+	 			 border-top: solid 2px;
+	 			 font-size: 2.5em;
+	 			 font-weight: 900;
+	 			 letter-spacing: 0.2em;
+	 			 margin: 0;
+	 			 padding-left: 0.05em;
+	 			 position: relative;
+	 			 text-transform: uppercase;
+	 		 }
+
+	 	 .cta .inn p {
+	 		 letter-spacing: 0.1em;
+	 		 margin: 0;
+	 		 text-transform: uppercase;
+	 	 }
+
+	 		 .cta .inn p a {
+	 			 color: inherit;
+	 			 font-weight: 400;
+	 			 text-decoration: none;
+	 		 }
+
+	 	 .cta .inn footer {
+	 		 margin: 2em 0 0 0;
+	 	 }
 /* Footer */
 
 	#footer {
