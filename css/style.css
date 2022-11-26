@@ -848,7 +848,7 @@ custom styles adapted from Twenty by HTML5 Up
 	 	 .cta .inn p {
 	 		 letter-spacing: 0.1em;
 	 		 margin: 0;
-	 		 text-transform: uppercase;
+	 		 /*text-transform: uppercase;*/
 	 	 }
 
 	 		 .cta .inn p a {
