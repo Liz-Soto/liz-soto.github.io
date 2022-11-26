@@ -1,18 +1,113 @@
-<header id="header">
-  <h1 id="logo" style="text-transform:capitalize">
-    <a href="/">Liz</a></h1>
-  <nav id="nav">
-    <ul>
-      <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#About">about</a></li>
-      {% if page.portfolio %}
-      <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#{{ page.portfolio }}">{{ page.portfolio }}</a></li>
-      {% endif %}
-      {% if page.cta %}
-      <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#{{ page.cta }}"> {{ page.cta }} </a></li>
-      {% endif %}
+<!-- design: hello for github pages by sng -->
+
+<!DOCTYPE html>
+<html>
+
+  <!--HEAD-->
+  <head>
+    <style>html{visibility: hidden;opacity:0;}</style>
+    <title>{{ site.title }}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="" />
+
+    <!--favicon-->
+    {% if page.favicon %}
+    <link rel="icon" href= "{{ page.favicon }}" type="image/x-icon" />
+    {% endif %}
+
+    <!--jekyll plugins-->
+    {%- feed_meta -%}
+    {%- seo -%}
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    {% if page.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ page.google_analytics }}"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ page.google_analytics }}');
+    </script>
+    {% endif %}
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.dropotron.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/jquery.scrollgress.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-layers.min.js"></script>
+    <script src="/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="/css/skel.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/style-wide.css" />
+        <link rel="stylesheet" href="/css/style-noscript.css" />
+    </noscript>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  </head>
+
+
+  <body class="index">
+
+    <!-- HEADER -->
+    <header id="header">
+      <h1 id="logo" style="text-transform:capitalize">
+        <a href="/">Liz</a></h1>
+      <nav id="nav">
+        <ul>
+          <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#About">about</a></li>
+          {% if page.portfolio %}
+          <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#{{ page.portfolio }}">{{ page.portfolio }}</a></li>
+          {% endif %}
+          {% if page.cta %}
+          <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#{{ page.cta }}"> {{ page.cta }} </a></li>
+          {% endif %}
+        </ul>
+      </nav>
+    </header>
+
+
+<!--CONTENT-->
+
+    <div class="page-content">
+
+      <h1>Fabulous Content</h1>
+      <h2>An Example Portfolio Item<h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo eget magna fermentum iaculis eu non diam phasellus. Interdum velit euismod in pellentesque ..</p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <ul class="icons">
+            {% if page.twitter_username %}
+            <li><a href="https://twitter.com/{{ page.twitter_username }}" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+            {% endif %}
+            {% if page.facebook_username %}
+            <li><a href="https://www.facebook.com/{{ page.facebook_username }}" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+            {% endif %}
+            {% if page.github_username %}
+            <li><a href="https://github.com/{{ page.github_username }}" class="icon circle fa-github"><span class="label">Github</span></a></li>
+            {% endif %}
+            {% if page.linkedin %}
+            <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+            {% endif %}
+        </ul>
+
+    <ul class="copyright">
+        <li>This website is maintained by {{ site.author}}</li>
+        <!--<li>design: <a href="https://saragong.github.io/hello/"><strong>hello</strong></a> for github pages</li>
+        <li>adapted from <a href="https://html5up.net/twenty"><strong>Twenty</strong></a> by HTML5 Up</li>-->
     </ul>
-  </nav>
-</header>
-<h1>Fabulous Content</h1>
-<h2>An Example Portfolio Item<h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo eget magna fermentum iaculis eu non diam phasellus. Interdum velit euismod in pellentesque ..</p>
+
+</footer>
+
+  </body>
+
+</html>
