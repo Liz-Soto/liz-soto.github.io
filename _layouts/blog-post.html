@@ -71,6 +71,36 @@
       </nav>
     </header>
 
+<!--CONTENT-->
+
+    <div class="page-content">
+
+        <article id="main">
+            <!-- section: about -->
+              <header class="special container" id="About">
+                <h2 ><strong>About</strong></h2>
+              </header>
+
+              <section class="special container" style="margin-bottom:10em">
+
+                  <div style="padding: 0 1em; text-align:center">
+                    {{ content }}</div>
+
+                  <!-- button -->
+                  {% if page.about_button %}
+                  <section class="wrapper style1 container special">
+                        <footer class="major">
+                            <ul class="buttons">
+                              <li><a href="{{ page.about_button }}" download class="button">{{ page.about_button_label }}</a></li>
+                            </ul>
+                        </footer>
+                  </section>
+                {% endif %}
+              </section>
+
+        
+    </div>
+
     <!-- Footer -->
     <footer id="footer">
 
