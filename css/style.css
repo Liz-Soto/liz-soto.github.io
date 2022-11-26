@@ -823,6 +823,7 @@ custom styles adapted from Twenty by HTML5 Up
 	 	 opacity: 0;
 	 	 padding: 2em;
 	 	 text-align: center;
+		 height: 100px;
 	  }
 
 	 	 .cta .inn header {
