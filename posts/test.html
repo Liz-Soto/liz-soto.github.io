@@ -1,3 +1,18 @@
+<header id="header">
+  <h1 id="logo" style="text-transform:capitalize">
+    <a href="/">Liz</a></h1>
+  <nav id="nav">
+    <ul>
+      <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#About">about</a></li>
+      {% if page.portfolio %}
+      <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#{{ page.portfolio }}">{{ page.portfolio }}</a></li>
+      {% endif %}
+      {% if page.cta %}
+      <li style="text-transform:capitalize"><a href="{{ page.page_url }}/#{{ page.cta }}"> {{ page.cta }} </a></li>
+      {% endif %}
+    </ul>
+  </nav>
+</header>
 <h1>Fabulous Content</h1>
 <h2>An Example Portfolio Item<h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo eget magna fermentum iaculis eu non diam phasellus. Interdum velit euismod in pellentesque ..</p>
