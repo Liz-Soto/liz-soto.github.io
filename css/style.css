@@ -842,7 +842,7 @@ custom styles adapted from Twenty by HTML5 Up
 	 			 margin: 0;
 	 			 padding-left: 0.05em;
 	 			 position: relative;
-	 			 text-transform: uppercase;
+	 			 /*text-transform: capitalize;*/w
 	 		 }
 
 	 	 .cta .inn p {
